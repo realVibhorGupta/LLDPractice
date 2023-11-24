@@ -5,7 +5,7 @@ import logger.logger.LoggerSubject;
 
 public class DebugLogger extends AbstractLogger {
 
-    DebugLogger(int levels) {
+    public DebugLogger(int levels) {
         this.levels = levels;
     }
 

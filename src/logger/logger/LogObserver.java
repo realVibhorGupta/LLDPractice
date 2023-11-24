@@ -1,6 +1,6 @@
 package logger.logger;
 
 
-interface LogObserver {
+public interface LogObserver {
     void log(String message);
 }

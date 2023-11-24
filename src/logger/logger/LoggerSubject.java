@@ -22,7 +22,7 @@ public class LoggerSubject {
         }
     }
 
-    void notifyAllObserver(int level, String message){
+    public void notifyAllObserver(int level, String message){
         for( Map.Entry<Integer, List<LogObserver>> logObserver : logObservers.entrySet()){
             if (logObserver.getKey() == level){
                 logObserver.getValue().forEach(observer -> observer.log(message));

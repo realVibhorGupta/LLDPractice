@@ -5,7 +5,7 @@ import logger.logger.LoggerSubject;
 
 public class InfoLogger extends AbstractLogger {
 
-    protected InfoLogger(int levels) {
+    public InfoLogger(int levels) {
         this.levels = levels;
     }
 

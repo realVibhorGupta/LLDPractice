@@ -2,7 +2,7 @@ package logger.logger;
 
 public abstract class AbstractLogger {
     //tells the level of The logs
-    int levels;
+    protected int levels;
     private AbstractLogger nextLevelLogger;
 
     void setNextLevelLogger(AbstractLogger nextLevelLogger) {
