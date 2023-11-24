@@ -12,9 +12,9 @@ It contains implementation of logger with different design patterns .
 
 ## Components Involved
 
-1. Logger — which will be exposed to the application
-2. Category—This should be selected at run time based on parameter.
-3. Sink—This should be selected at run on time based on some parameter. eg where we have to save/show the logs. console, files or databases.
+1. Logger -which will be exposed to the application
+2. Category - This should be selected at run time based on parameter.
+3. Sink -  This should be selected at run on time based on some parameter. eg where we have to save/show the logs. console, files or databases.
 
 ## Pattern Choices
 1. For Logger, we will use Singleton

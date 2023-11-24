@@ -1,11 +1,11 @@
-package logger;
+package logger.logger;
 
 
 import java.io.Serial;
 import java.io.Serializable;
 
-import static logger.LogManager.addObservers;
-import static logger.LogManager.doChaining;
+import static logger.logger.LogManager.addObservers;
+import static logger.logger.LogManager.doChaining;
 
 
 public class Logger implements Cloneable, Serializable {

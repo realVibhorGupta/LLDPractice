@@ -1,4 +1,7 @@
-package logger;
+package logger.category;
+
+import logger.logger.AbstractLogger;
+import logger.logger.LoggerSubject;
 
 public class ErrorLogger  extends AbstractLogger {
 

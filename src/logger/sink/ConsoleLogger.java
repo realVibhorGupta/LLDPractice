@@ -1,4 +1,6 @@
-package logger;
+package logger.sink;
+
+import logger.LogObserver;
 
 public class ConsoleLogger implements LogObserver {
     @Override

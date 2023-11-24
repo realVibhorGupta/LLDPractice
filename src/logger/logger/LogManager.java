@@ -1,4 +1,10 @@
-package logger;
+package logger.logger;
+
+import logger.category.DebugLogger;
+import logger.category.ErrorLogger;
+import logger.category.InfoLogger;
+import logger.sink.ConsoleLogger;
+import logger.sink.FileLogger;
 
 public class LogManager {
 

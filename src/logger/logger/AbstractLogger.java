@@ -1,4 +1,4 @@
-package logger;
+package logger.logger;
 
 public abstract class AbstractLogger {
     //tells the level of The logs

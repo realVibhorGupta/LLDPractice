@@ -1,5 +1,7 @@
 package logger;
 
+import logger.logger.Logger;
+
 public class MainApplication {
     public static void main(String[] args) {
 
